@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-Local ETL pipeline for VIP Medical Group (HealthTech)
------------------------------------------------------
-Author: Javier Alejandro Valencia
 
 Goal: Build a local, idempotent ETL that reads two Excel files (doctors and appointments),
 cleans/transforms the data, and loads it into a PostgreSQL schema (default: healthtech).
